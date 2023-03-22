@@ -16,7 +16,7 @@ produced as in https://github.com/nateanl/chime6_rttm (details are in the CHiME-
 
 **Important** <br>
 Here we extend the forced alignment annotation also for the training set, and provide it also in the form of 
-JSON files (along with .rttm).
+JSON files.
 
 JSON forced alignment segmentation has a dummy value for the words entry 
 (due to licensing we can't release the transcriptions here). 
