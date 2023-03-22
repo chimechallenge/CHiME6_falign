@@ -18,8 +18,11 @@ produced as in https://github.com/nateanl/chime6_rttm (details are in the CHiME-
 Here we extend the forced alignment annotation also for the training set, and provide it also in the form of 
 JSON files (along with .rttm).
 
-We also provide a script for re-segmenting the CHiME-7 DASR annotation using this new
-segmentation. 
+JSON forced alignment segmentation has a dummy value for the words entry 
+(due to licensing we can't release the transcriptions here). 
+The words field is not removed as it makes these more convenient to use in the baseline scripts 
+e.g. in https://github.com/espnet/espnet/blob/master/egs2/chime7_task1/asr1/local/get_lhotse_manifests.py 
+if one wants to use this segmentation in place of the manual one for GSS and ASR. 
 
 [1] Watanabe, S., Mandel, M., Barker, J., Vincent, E., Arora, A., Chang, X., et al. CHiME-6 challenge: Tackling multispeaker speech recognition for unsegmented recordings. <https://arxiv.org/abs/2004.09249> <br>
 
