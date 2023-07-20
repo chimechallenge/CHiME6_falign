@@ -1,2 +1,0 @@
-# Will be released later, together with the CHiME-7 DASR evaluation set. 
-## See the [official website for more information](https://www.chimechallenge.org/current/task1/index) and the [important dates](https://www.chimechallenge.org/current/dates).
